@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1{
+    border: 5px solid black;
+    /*Start - Always center of screen for any screen size*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*End - Always center of screen for any screen size*/
+    background-color: #0e65bd;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Bangers', cursive;
+}
+
+#layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky,
+#hivewhale, #drone, #bulbwhale, #moonfish, #stalker, #razorfin,
+#projectile, #gears, 
+#smokeExplosion, #fireExplosion, #shield, #fireball{
+    display: none;
+}
